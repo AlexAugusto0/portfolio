@@ -329,24 +329,25 @@ button:hover{
   font-size: 1.25rem;
 }
 
-@media (min-width:650px) and (max-width:1300px) {
+@media (max-width:767px) {
   *{
     margin:0;
     padding:0;
   }
   .apresentacao{
+    height: 200rem;
     padding: 5%;
   }
 
   .apresentacao__body{
     flex-direction: column-reverse;
-    height: 37.5rem;
+    height: 43.75rem;
   }
 
   .imagem__analista{
     width: 15rem;
     height: 15rem;
-    padding: 0% 5% 0% 5%;
+    padding: 10% 0% 0% 0%;
     align-items: center;
   }
 
@@ -354,29 +355,30 @@ button:hover{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 5%;
+    padding: 5% 10%;
 
   }
 
   .conteudo{
-    padding: 5% 0% 0% 0%;
+    padding: 5% 0% 0% 25%;
     height: 1%;
+    width: 50%;
   }
-
 
   
   .rede__linhas{
     display: flex;
     flex-direction: row;
-    gap: 7rem;
+    gap: 3rem;
     text-align: center;
-    height: 100%;
-    padding: 500% 0% 0% 0%;
+    height:56.25rem;
+    width: 1.87rem;
+    padding: 0% 0% 0% 100%;
   
   }
   
   .linha{
-    height: 13rem;
+    height: 5rem;
     width: 3rem;
     transform: rotate(90deg);
     
@@ -385,19 +387,33 @@ button:hover{
     display: flex;
     flex-direction: column;
     background-image: none;
-    padding: 10%;
+    padding: 0%;
   }
+
   .imagem__desenvolvedor{
-    align-items: center;
-    padding: 0% 20% 5% 27%;
+    padding: 0% 20% 5% 25%;
   }
+
+
   .texto__destaque__titulo{
-    padding: 0% 0% 0% 34%;
     align-items: center;
+    width: 50%;
+    padding: 0% 0% 0% 30%;
+  }
+
+  .about__paragrafo{
+    text-align: left;
+    padding: 0% 0% 0% 15%;
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .rede__social__secundario{
+    padding: 0% 0% 0% 20%;
   }
 
   .titulo__contato{
-    padding: 10% 0% 10% 0%;
+    padding: 70% 0% 10% 0%;
   }
 
   .form{
@@ -408,7 +424,12 @@ button:hover{
   }
 
   .formulario{
-    padding: 0% 0% 0% 5%;
+    padding: 0% 0% 0% 15%;
+    width: 22.5rem;
+  }
+
+  button{
+    width: 22.5rem;
   }
 
   .divisoria{
@@ -419,12 +440,6 @@ button:hover{
     padding: 5%;
   
   }
-
-  .texto__contato{
-   display: none;
-  }
-  
-
   .rodape{
     display: flex;
     padding: 0%;
